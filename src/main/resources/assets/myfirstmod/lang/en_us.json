@@ -1,0 +1,10 @@
+{
+  "item.myfirstmod.flame_charm": "Flame Charm",
+  "item.myfirstmod.flame_charm.desc": "A charm that makes you burn!",
+
+  "item.myfirstmod.flame_charm_high_res": "Flame Charm what",
+
+  "block.myfirstmod.crystalline_block": "Crystalline Block",
+
+  "itemGroup.myfirstmod.mfm_group": "My First Mod"
+}
