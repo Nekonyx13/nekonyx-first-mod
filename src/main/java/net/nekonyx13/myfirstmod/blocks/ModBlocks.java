@@ -16,9 +16,9 @@ public class ModBlocks {
     public static Block CRYSTALLINE_BLOCK = registerBlock("crystalline_block",
             new Block(FabricBlockSettings.
                     of(Material.METAL)
-                    .strength(5.0f, 6.0f)
+                    .strength(4.0f)
                     .requiresTool()
-                    .luminance(6)),
+                    .luminance(1)),
             ModItemGroup.MFM_GROUP);
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {

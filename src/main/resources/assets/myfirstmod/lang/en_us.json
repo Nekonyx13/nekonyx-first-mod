@@ -1,8 +1,12 @@
 {
   "item.myfirstmod.flame_charm": "Flame Charm",
-  "item.myfirstmod.flame_charm.desc": "A charm that makes you burn!",
 
   "item.myfirstmod.flame_charm_high_res": "Flame Charm what",
+
+  "item.myfirstmod.test_rod": "Rod of Harvesting",
+  "item.myfirstmod.test_rod.killed": "killed a thing",
+
+
 
   "block.myfirstmod.crystalline_block": "Crystalline Block",
 
