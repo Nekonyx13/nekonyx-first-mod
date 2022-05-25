@@ -11,12 +11,14 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NbtCompound;
 import net.minecraft.potion.Potion;
 import net.minecraft.potion.PotionUtil;
+import net.minecraft.sound.SoundCategory;
 import net.minecraft.text.Text;
 import net.minecraft.text.TranslatableText;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.Hand;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Box;
+import net.nekonyx13.myfirstmod.sound.ModSounds;
 
 public class TestRod extends Item {
     private static final int DEATH_RADIUS = 100;
@@ -29,6 +31,7 @@ public class TestRod extends Item {
     public ActionResult useOnEntity(ItemStack stack, PlayerEntity user, LivingEntity entity, Hand hand) {
         if (user.getWorld().isClient) {
             user.sendMessage(new TranslatableText("item.myfirstmod.test_rod.killed"), false);
+            user.getWorld().playSound(user, user.getBlockPos(), ModSounds.GHOSTY_HURT, SoundCategory.BLOCKS, 1.0f, 1.0f);
         }
         entity.damage(DamageSource.GENERIC, entity.getHealth() - 0.5f);
         AreaEffectCloudEntity areaEffectCloudEntity = new AreaEffectCloudEntity(entity.getWorld(), entity.getX(), entity.getY(), entity.getZ());

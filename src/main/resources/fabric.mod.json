@@ -20,6 +20,9 @@
   "entrypoints": {
     "main": [
       "net.nekonyx13.myfirstmod.Main"
+    ],
+    "client": [
+      "net.nekonyx13.myfirstmod.MainClient"
     ]
   },
   "mixins": [

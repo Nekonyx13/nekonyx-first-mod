@@ -6,9 +6,14 @@
   "item.myfirstmod.test_rod": "Rod of Harvesting",
   "item.myfirstmod.test_rod.killed": "killed a thing",
 
+  "item.myfirstmod.ghosty_spawn_egg": "Ghosty Spawn Egg",
+
 
 
   "block.myfirstmod.crystalline_block": "Crystalline Block",
 
-  "itemGroup.myfirstmod.mfm_group": "My First Mod"
+  "itemGroup.myfirstmod.mfm_group": "My First Mod",
+
+
+  "myfirstmod.ghosty_hurt": "Ghosty is hurt"
 }
